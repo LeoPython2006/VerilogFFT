@@ -1,0 +1,8 @@
+# Таблица сравнения FFT-блоков
+
+| Название блока                | Размер (LUT/FF/BRAM/DSP) | Частота (Fmax, МГц) | Задержка (такты) | Пропускная способность | Точность (SNR/ENOB) | Ошибка округления | Гибкость (размер FFT, iFFT) | Лицензия | Ссылка |
+|-------------------------------|--------------------------|---------------------|------------------|------------------------|---------------------|-------------------|----------------------------|----------|--------|
+| Pipelined FFT/IFFT 128 points |                          |                     |                  |                        |                     |                   |                            | LGPL     | [ссылка](https://opencores.org/projects/pipelined_fft_128) |
+| Pipelined FFT/IFFT 64 points  |                          |                     |                  |                        |                     |                   |                            | LGPL     | [ссылка](https://github.com/freecores/pipelined_fft_64) |
+| FFT Generator (fftgen)        |                          |                     |                  |                        |                     |                   |                            | MIT      | [ссылка](https://github.com/steveri/fftgen) |
+| Parametrized FFT engine       |                          |                     |                  |                        |                     |                   |                            | LGPL     | [ссылка](https://opencores.org/projects/versatile_fft) | 
