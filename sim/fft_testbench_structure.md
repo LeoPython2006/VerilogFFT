@@ -15,13 +15,13 @@ sim/
 │   ├── test_vectors.py            # Генератор тестовых векторов
 │   └── metrics_calculator.py      # Калькулятор метрик качества
 ├── fft_dut/
-│   ├── fft_core.cv                 # Основной FFT модуль
-│   ├── fft_butterfly.cv            # Блок butterfly
-│   ├── fft_twiddle.cv              # Таблица twiddle factors
-│   └── fft_memory.cv               # Память для данных
+│   ├── fft_core.sv                 # Основной FFT модуль
+│   ├── fft_butterfly.sv            # Блок butterfly
+│   ├── fft_twiddle.sv              # Таблица twiddle factors
+│   └── fft_memory.sv               # Память для данных
 └── config/
-    ├── fft_config.py              # Конфигурация тестов
-    └── test_scenarios.py          # Сценарии тестирования
+    ├── fft_config.sy              # Конфигурация тестов
+    └── test_scenarios.sy          # Сценарии тестирования
 ```
 
 ## 2. Основные компоненты тестбенча
