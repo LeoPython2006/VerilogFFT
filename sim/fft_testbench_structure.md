@@ -15,10 +15,10 @@ sim/
 │   ├── test_vectors.py            # Генератор тестовых векторов
 │   └── metrics_calculator.py      # Калькулятор метрик качества
 ├── fft_dut/
-│   ├── fft_core.v                 # Основной FFT модуль
-│   ├── fft_butterfly.v            # Блок butterfly
-│   ├── fft_twiddle.v              # Таблица twiddle factors
-│   └── fft_memory.v               # Память для данных
+│   ├── fft_core.cv                 # Основной FFT модуль
+│   ├── fft_butterfly.cv            # Блок butterfly
+│   ├── fft_twiddle.cv              # Таблица twiddle factors
+│   └── fft_memory.cv               # Память для данных
 └── config/
     ├── fft_config.py              # Конфигурация тестов
     └── test_scenarios.py          # Сценарии тестирования
