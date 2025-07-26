@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Jul 25 06:47:47 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : FFT
+Top-level Entity Name : TopOverlapFFT128
+Family : MAX 10
+Total logic elements : 9,003
+    Total combinational functions : 8,942
+    Dedicated logic registers : 4,765
+Total registers : 4765
+Total pins : 54
+Total virtual pins : 0
+Total memory bits : 2,656
+Embedded Multiplier 9-bit elements : 24
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
